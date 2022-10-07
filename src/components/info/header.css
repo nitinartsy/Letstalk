@@ -1,0 +1,27 @@
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-left: 478px;
+    padding-right: 526px;
+    position: fixed;
+    z-index: 2;
+
+    
+  }
+ 
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding:15px ;padding-left:20px;
+    text-decoration: none;
+    font-size:1vw;
+    background-color:#D8BC51 ;
+  }
+.divider{
+    color:rgb(255, 255, 255);
+}

@@ -1,0 +1,150 @@
+.img1{
+    float: left;
+    width: 50%;
+}
+.image2{
+    position: relative;
+   
+}
+.image{
+    width: 50%;
+}
+.centr{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-13%, -50%);
+    color: rgb(0, 0, 0);
+}
+.main-video{
+    margin-top: 5rem;
+}
+.video-whatdoes{
+    display: flex;
+   
+}
+.video-whatdoes video{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.what-to-do{
+    text-align: center;
+
+    padding: 5%;
+}
+.main-video h1{
+    text-align: center;
+}
+.home-img img{
+    width: 30px;
+}
+@media only screen and (max-width:320px) {
+    .centr {
+     
+        margin-top: 1rem;
+    
+    }
+
+
+}
+
+@media only screen and (max-width:425px) {
+   h1{
+    font-size: 20px;
+   }
+   p{
+    font-size: 10px;
+   }
+   h4{
+    font-size: 15px;
+   }
+    
+   body{
+    font-size: 2vw;
+   }
+   .main-video {
+    margin-top: 0rem;
+}
+.main-video h1{
+    margin: 2rem;
+}
+
+    .video-whatdoes{
+        flex-wrap: wrap;
+        
+     }
+     .video-whatdoes video {
+         margin-left: 14px;
+         margin-top: -54px;
+         width: 93%;
+     }
+
+.what-to-do {
+    text-align: center;
+    padding: 5%;
+    font-size: 3.5vw;
+}
+.what-to-do button{
+    margin-left: 0;
+}
+.img1{
+    float: left;
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+.centr {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    text-align: center;
+    transform: translate(-1%, -52%);
+    color: rgb(0, 0, 0);
+}
+.centr button{
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .centr{
+      position: absolute;
+      top: 52%;
+      font-size: 1.5vw;
+      left: 57%;
+      transform: translate(-11%, -50%);
+      color: rgb(0, 0, 0);
+    }
+    .centr button{
+      margin-left: 0;
+    }
+    .what-to-do{
+      font-size: 1.5vw;
+    }
+    .what-to-do button{
+      margin-left: 0;
+      font-size: 1.5vw;
+
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .centr {
+    position: absolute;
+    top: 40%;
+    left: 56%;
+    transform: translate(-12%, -36%);
+    color: rgb(0, 0, 0);
+  }
+  }
+
+/* .centr h1{
+    color: rgba(0, 0, 0, 0.742);
+}
+.centr h2{
+    color: rgba(0, 0, 0, 0.839);
+} */

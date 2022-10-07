@@ -1,0 +1,16 @@
+.cards{
+    float: left;
+    margin: 1rem;
+    margin-left: 2.5rem;
+}
+.card{
+    background: rgb(255 255 255 / 48%);
+    padding: 2rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.31) 1px 1px 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+    content: "";
+    opacity: 1;
+    backdrop-filter: blur(16px) saturate(180%);
+}

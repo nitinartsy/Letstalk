@@ -1,0 +1,145 @@
+.containerr img {
+   float: left;
+   width:50%;
+}
+
+.formcontent-1{
+    position: relative;
+    text-align: center;
+}
+
+.cnter-1 {
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    transform: translate(59%, 29%);
+  }
+
+  @media only screen and (max-width: 425px) {
+    .cnter-1 {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+
+        transform: translate(-2%, 31%);
+      }
+      .containerr img {
+        float: left;
+        width: 100%;
+    }
+    .form-2{
+        display: none;
+    }
+    .cnter-1 button{
+        padding-left: -5px ;
+        padding-right: -5px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0;
+        border: 1px solid black;
+        font-size: 4vw;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 426px) and (max-width: 550px) {
+    .cnter-1 {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+
+        transform: translate(-2%, 23%);
+      }
+      .containerr img {
+        float: left;
+        width: 100%;
+    }
+    .form-2{
+        display: none;
+    }
+    .cnter-1 button{
+        padding-left: -5px ;
+        padding-right: -5px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0;
+        border: 1px solid black;
+        font-size: 2.5vw;
+    }
+  }
+
+
+  @media only screen and (min-width: 551px) and (max-width: 600px) {
+    .cnter-1 {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+
+        transform: translate(-2%, 23%);
+      }
+      .containerr img {
+        float: left;
+        width: 100%;
+    }
+    .form-2{
+        display: none;
+    }
+    .cnter-1 button{
+        padding-left: -5px ;
+        padding-right: -5px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0;
+        border: 1px solid black;
+        font-size: 2.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .cnter-1 {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+
+        transform: translate(16%, 35%);
+      }
+      .containerr img {
+        float: left;
+        width: 100%;
+    }
+    .form-2{
+        display: none;
+    }
+    .cnter-1 button{
+        padding-left: -5px ;
+        padding-right: -5px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0;
+        border: 1px solid black;
+        font-size: 2.5vw;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cnter-1 {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        transform: translate(37%, 10%);
+      }
+
+
+    .cnter-1 button{
+        padding-left: -5px ;
+        padding-right: -5px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0;
+        border: 1px solid black;
+        font-size: 2.5vw;
+    }
+  }

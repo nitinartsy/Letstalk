@@ -1,0 +1,54 @@
+.contact-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    align-items: center;
+    margin-top: 7rem;
+
+
+}
+
+
+  
+  .contact-flex > .m1 {
+width: 40%;
+/* margin-top: -8rem; */
+
+  }
+    
+  .contact-flex > .m2 {
+align-items: center;    
+text-align: center;
+text-justify: center;
+margin: auto;
+      }
+      .m2 h1{
+        color: #FFB800;
+      }
+  @media (max-width: 800px) {
+    .contact-flex {
+      flex-direction: column;
+    }
+}
+
+.iconsets-1 {
+   margin: 2rem;
+  }
+  .iconsets-1 img{
+    margin: 1rem;
+  }
+  @media only screen and (max-width: 425px) {
+    .contact-flex > .m1 {
+      width: 90%;
+      /* margin-top: -8rem; */
+      
+        }
+        .contact-flex > .m2 {
+          
+          margin-top: 10%;
+      }
+      .iconsets-1 img {
+        width: 10%;
+        margin: 3px;
+    }
+  }
